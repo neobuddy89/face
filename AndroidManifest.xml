@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="co.aospa.facesense" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.MANAGE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC_INTERNAL"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="co.aospa.facesense.FaceApplication" android:allowBackup="false" android:supportsRtl="true" android:extractNativeLibs="false" android:resizeableActivity="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:usesNonSdkApi="true">
+        <activity android:theme="@style/SudThemeGlifV2.Light" android:label="@string/face_enrolling" android:icon="@drawable/ic_launch" android:name="co.aospa.facesense.FaceEnrollEnrolling" android:enabled="true" android:exported="true" android:excludeFromRecents="true" android:screenOrientation="portrait"/>
+        <service android:label="@string/app_name" android:name="co.aospa.facesense.SenseService" android:permission="android.permission.MANAGE_BIOMETRIC" android:exported="true">
+            <intent-filter>
+                <action android:name="sense:remote"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

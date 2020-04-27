@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SudCardTitle">
+        <item name="android:maxLines">6</item>
+    </style>
+    <style name="SuwCardTitle">
+        <item name="android:maxLines">6</item>
+    </style>
+</resources>

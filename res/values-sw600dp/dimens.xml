@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_content_inset_material">24dp</dimen>
+    <dimen name="abc_action_bar_content_inset_with_nav">80dp</dimen>
+    <dimen name="abc_action_bar_default_height_material">64dp</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8dp</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">580dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="sud_decor_padding_top">256dp</dimen>
+    <dimen name="sud_glif_button_margin_end">36dp</dimen>
+    <dimen name="sud_glif_button_margin_start">24dp</dimen>
+    <dimen name="sud_glif_margin_sides">40dp</dimen>
+    <dimen name="sud_header_title_size">34sp</dimen>
+    <dimen name="sud_illustration_aspect_ratio">0</dimen>
+    <dimen name="sud_items_glif_icon_divider_inset">88dp</dimen>
+    <dimen name="sud_items_glif_text_divider_inset">40dp</dimen>
+    <dimen name="suw_decor_padding_top">256dp</dimen>
+    <dimen name="suw_glif_button_margin_end">36dp</dimen>
+    <dimen name="suw_glif_button_margin_start">24dp</dimen>
+    <dimen name="suw_glif_margin_sides">40dp</dimen>
+    <dimen name="suw_header_title_size">34sp</dimen>
+    <dimen name="suw_illustration_aspect_ratio">0</dimen>
+    <dimen name="suw_items_glif_icon_divider_inset">88dp</dimen>
+    <dimen name="suw_items_glif_text_divider_inset">40dp</dimen>
+</resources>

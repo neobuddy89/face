@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SuwGlifHeaderContainer">
+    <ImageView android:id="@+id/suw_layout_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" style="?attr/suwGlifIconStyle"/>
+    <TextView android:id="@+id/suw_layout_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SuwGlifHeaderTitle"/>
+    <ViewStub android:id="@+id/suw_layout_progress_stub" android:layout="@layout/suw_progress_bar" android:inflatedId="@+id/suw_layout_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="?attr/suwMarginSides" android:layout_marginTop="@dimen/suw_glif_progress_bar_margin_vertical" android:layout_marginRight="?attr/suwMarginSides" android:layout_marginBottom="@dimen/suw_glif_progress_bar_margin_vertical"/>
+</LinearLayout>

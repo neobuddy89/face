@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
+    <dimen name="sud_card_title_padding_bottom">0dp</dimen>
+    <dimen name="sud_card_title_padding_end">32dp</dimen>
+    <dimen name="sud_card_title_padding_start">56dp</dimen>
+    <dimen name="sud_card_title_padding_top">24dp</dimen>
+    <dimen name="sud_decor_padding_top">0dp</dimen>
+    <dimen name="sud_glif_card_height">560dp</dimen>
+    <dimen name="sud_glif_card_width">672dp</dimen>
+    <dimen name="sud_illustration_aspect_ratio">0</dimen>
+    <dimen name="suw_card_title_padding_bottom">0dp</dimen>
+    <dimen name="suw_card_title_padding_end">32dp</dimen>
+    <dimen name="suw_card_title_padding_start">56dp</dimen>
+    <dimen name="suw_card_title_padding_top">24dp</dimen>
+    <dimen name="suw_decor_padding_top">0dp</dimen>
+    <dimen name="suw_glif_card_height">560dp</dimen>
+    <dimen name="suw_glif_card_width">672dp</dimen>
+    <dimen name="suw_illustration_aspect_ratio">0</dimen>
+</resources>
